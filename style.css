@@ -1,0 +1,355 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  font-size: 10px; 
+}
+
+.header {
+  width: 100%;
+  height: 95vh;
+  background-image: url("https://i.ibb.co/Sxn3Ywb/black-and-white-chart-cost-241544.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0,100% 80vh, 0 100%);
+}
+
+nav {
+  text-transform: uppercase;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+
+}
+
+.logo-box {
+  float: left;
+}
+
+.logo {
+  width: 7rem;
+  height: 7rem;
+  margin-left: 80px;
+  margin-right: 1rem;
+  margin-top: 6rem;
+}
+
+nav ul {
+  list-style: none;
+  float: left;
+  margin-top: 9.2rem;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1.5 rem;
+  margin-left: 4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 200;
+}
+
+nav ul li a:hover {
+  padding-bottom: .5rem;
+  border-bottom: .2rem solid white;
+  cursor: pointer;
+}
+
+.text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.primary-heading {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+
+.heading-main {
+  display: block;
+  font-size: 8rem;
+  font-weight: 600;
+  letter-spacing: 0.8rem;
+  margin-left: -3.5rem;
+}
+
+.heading-sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+  margin-left: -3.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  transition: all .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0, 2);
+  color: #85bb65;
+}
+
+.info {
+  height: 67vh;
+}
+
+.grid {   
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  column-gap: 80px;
+  row-gap: 22px;
+  align-items: center;
+  justify-items: center;
+  padding-top: 20px;
+}
+
+.one {
+  font-size: 40px;
+}
+
+.two {
+  font-size: 40px;
+}
+
+.three {
+  font-size: 40px;
+}
+
+.four {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.five {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.six {
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.seven {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.eight {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.nine {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.ten {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.eleven {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.twelve {
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.one:hover ~ .four, .one:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65 ;
+}
+
+.two:hover ~ .five, .two:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65 ;
+}
+
+.three:hover ~ .six, .three:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65 ;
+}
+
+.seven:hover ~ .ten, .seven:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65 ;
+}
+
+.eight:hover ~ .eleven, .eight:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65 ;
+}
+
+.nine:hover ~ .twelve, .nine:hover {
+  transition: all .2s ease-in-out; 
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #85bb65;
+}
+
+.servis {
+  height: 100vh;
+}
+
+.grid-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.line1 {
+  height: 33.3333vh;
+  background-image: url("http://imgWorld.cz/s3/sje6HBV9is.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  opacity: 0.65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line2 {
+  height: 33.3333vh;
+  background-image: url("http://imgWorld.cz/s3/L66koNsoun.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  opacity: 0.65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line3 {
+  height: 33.3333vh;
+  background-image: url("http://imgWorld.cz/s3/kHGPItOwMg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  opacity: 0.65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1:hover {
+  opacity: 0.9;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.line2:hover {
+  opacity: 0.9;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.line3:hover {
+  opacity: 0.9;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.lastGrid {
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: center;
+  justify-items: center;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: ". . ." ". text ." ". . .";
+}
+
+.text {
+  grid-area: text;
+  line-height: 2;
+  border: 0px solid black;
+  padding: 5px;
+  border-radius: 2.5px;
+  transition: all .2s;
+  text-align: center;
+
+}
+.text i {
+  font-size: 70px;
+}
+.text p {
+  font-size: 35px;
+  font-weight: 700;
+}
+.text span {
+  font-size: 15px;
+}
+
+footer {
+  border-top: 2px solid black;
+  padding: 2px;
+  text-align: center;
+  font-size: 8px;
+}
